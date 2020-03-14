@@ -10,7 +10,9 @@ headers = {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleW
 response = requests.get(url, headers=headers)
 # data = response.json()
 data = response.text
+
 # 解析数据
+
 json_data = json.loads(data)  # 转换为字典格式
 
 data_list = json_data['data']  # value是一个列表
