@@ -13,7 +13,7 @@ data = response.text
 
 # 解析数据
 
-json_data = json.loads(data)  # 转换为字典格式
+json_data = json.loads(data)   #转换为字典格式
 
 data_list = json_data['data']  # value是一个列表
 
