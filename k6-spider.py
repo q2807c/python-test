@@ -29,4 +29,4 @@ for data1 in data_list:
     # 保存数据
     with open('./video/' + video_title, "wb") as f:
         f.write(video_data)
-        print('下载完成...\n')
+        print('下载完成..\n')
